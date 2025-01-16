@@ -125,6 +125,6 @@ WAZIPER.app.get('/', WAZIPER.cors, async (req, res) => {
     return res.json({ status: 'success', message: "Welcome to WAZIPER" });
 });
 
-WAZIPER.server.listen(8000, () => {
+WAZIPER.server.listen(7777, () => {
     console.log("WAZIPER IS LIVE");
 });
